@@ -46,6 +46,13 @@ section#entertainment {
   padding: 10rem 0;
 }
 
+.gift-cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+
 /* Showcase */
 
 #showcase {
