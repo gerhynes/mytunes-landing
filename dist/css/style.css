@@ -8,6 +8,45 @@ body {
   line-height: 1.6;
 }
 
+/* Showcase */
+
+#showcase {
+  margin: 0;
+  padding: 0;
+  background: url("../img/showcase.jpeg") no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+#showcase .container {
+  margin-top: 25vh;
+}
+
+#showcase h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#showcase h2 {
+  font-size: 2rem;
+}
+
+/* Utility classes */
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+}
+
+/* Navigation */
+
 nav {
   height: 40px;
   width: 100%;
@@ -43,6 +82,26 @@ nav a#openup {
 }
 
 @media screen and (max-width: 580px) {
+  .hide-on-small {
+    display: none;
+  }
+
+  #showcase {
+    height: 50vh;
+  }
+
+  #showcase .container {
+    margin-top: 15vh;
+  }
+
+  #showcase h1 {
+    font-size: 3rem;
+  }
+
+  #showcase h2 {
+    font-size: 1.5rem;
+  }
+
   nav {
     height: auto;
     border-bottom: 0;
